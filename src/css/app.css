@@ -1,0 +1,60 @@
+html {
+  background-color: #f0f0f0;
+  font: 16px Arial;
+}
+
+body {
+  margin: 0;
+}
+
+input, textarea {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #6F001B;
+  color: #F0F0F0;
+  font-family: 'Norican', cursive;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 900;
+  margin: 0;
+  padding: 20px 20px 20px 14px;
+  vertical-align: middle;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
